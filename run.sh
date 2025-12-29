@@ -1,0 +1,1 @@
+#!/bin/bash\ncd "$(dirname "$0")"\npython3 -m venv venv\nsource venv/bin/activate\npip install -r requirements.txt\npython3 main.py\n
